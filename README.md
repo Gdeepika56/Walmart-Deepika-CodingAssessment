@@ -28,11 +28,13 @@ The main goal of the app is to demonstrate:
 ---
 
 ## ScreenShots
+![country_list](https://github.com/user-attachments/assets/b767d357-4884-45b9-b0a5-e9a4ced61e1e)
 |<img alt="screenshot" height="600" src="https://github.com/Gdeepika56/Walmart-Deepika-CodingAssessment/blob/main/country_list.png" width="280"/>|<video src="https://github.com/user-attachments/assets/9cfc7d1d-ec06-40fd-9055-19ac5640582c"/>|
 
 ---
 
 ## API Used
+
 
 The data is fetched from the following public JSON:
 
