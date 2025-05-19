@@ -1,4 +1,4 @@
-# Countries App
+# Walmart Assessment Countries List
 
 The Countries App is a simple Android application that fetches a list of countries from a remote JSON source and displays them in a RecyclerView. The project demonstrates modern Android development best practices using Kotlin, Clean Architecture, and MVVM pattern.
 
