@@ -1,26 +1,19 @@
-package com.example.countrieswalmart
+package com.example.countrieswalmart.presentation.view
 
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.countrieswalmart.data.remote.CountriesApiClient
 import com.example.countrieswalmart.data.remote.CountriesApiService
 import com.example.countrieswalmart.data.repository.CountryRepository
 import com.example.countrieswalmart.databinding.ActivityMainBinding
 import com.example.countrieswalmart.domain.usecase.CountryUseCase
-import com.example.countrieswalmart.presentation.view.CountriesAdapter
 import com.example.countrieswalmart.presentation.viewmodel.ApiState
 import com.example.countrieswalmart.presentation.viewmodel.CountryViewModel
 import com.example.countrieswalmart.presentation.viewmodel.CountryViewModelFactory
 import kotlinx.coroutines.launch
-import kotlin.getValue
 
 class MainActivity : AppCompatActivity() {
 
