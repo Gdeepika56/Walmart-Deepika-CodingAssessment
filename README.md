@@ -28,7 +28,8 @@ The main goal of the app is to demonstrate:
 ---
 
 ## ScreenShots
-|<img alt="screenshot" height="600" src=https://github.com/Gdeepika56/Walmart-Deepika-CodingAssessment/blob/main/country_list.png width="280"/>|<video src=https://github.com/Gdeepika56/Walmart-Deepika-CodingAssessment/blob/main/country.mp4/>|
+|<img alt="screenshot" height="600" src="https://github.com/Gdeepika56/Walmart-Deepika-CodingAssessment/blob/main/country_list.png" width="280"/>|<video src="https://github.com/Gdeepika56/Walmart-Deepika-CodingAssessment/blob/main/country.mp4"/>|
+
 ---
 
 ## API Used
