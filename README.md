@@ -33,13 +33,9 @@ The main goal of the app is to demonstrate:
 
 ---
 
-## API Used
-
-
-The data is fetched from the following public JSON:
-
-[https://gist.githubusercontent.com/peymano-wmt/32dcb892b06648910ddd40406e37fdab/raw/db25946fd77c5873b0303b858e861ce724e0dcd0/countries.json](https://gist.githubusercontent.com/peymano-wmt/32dcb892b06648910ddd40406e37fdab/raw/db25946fd77c5873b0303b858e861ce724e0dcd0/countries.json)
-
+## API
+- **Source:** Public JSON endpoint providing country data  
+- **URL:** [countries.json](https://gist.githubusercontent.com/peymano-wmt/32dcb892b06648910ddd40406e37fdab/raw/db25946fd77c5873b0303b858e861ce724e0dcd0/countries.json)
 ---
 
 ## Package Structure
@@ -57,6 +53,8 @@ The data is fetched from the following public JSON:
 | domain.usecase                   | Business logic                                |
 | presentation.view                | UI components (MainActivity, Adapter)         |
 | presentation.viewModel           | ViewModel and Factory                         |
+
+##
 
 
 
