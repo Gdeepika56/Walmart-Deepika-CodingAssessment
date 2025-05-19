@@ -4,7 +4,9 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.countrieswalmart.data.remote.CountriesApiClient
 import com.example.countrieswalmart.data.remote.CountriesApiService
 import com.example.countrieswalmart.data.repository.CountryRepository
