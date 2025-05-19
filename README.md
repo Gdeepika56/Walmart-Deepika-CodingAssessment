@@ -43,22 +43,21 @@ The data is fetched from the following public JSON:
 ---
 
 ## Package Structure
-```text
-com.example.countrieswalmart
-│
-├── data
-│   ├── entities          # API response models
-│   ├── commons           # Sealed ApiResponse class, Constants
-│   ├── mappers           # Entity to domain model converters
-│   ├── remote            # Retrofit configuration and service
-│   └── repository        # Data-layer logic implementation
-│
-├── domain
-│   ├── data              # Domain-level models
-│   ├── repository        # Interfaces for repositories
-│   └── usecase           # Business logic
-│
-├── presentation
-│   ├── view              # UI components (MainActivity, Adapter)
-│   └── viewModel         # ViewModel and Factory
+
+
+| Package                          | Description                                   |
+|----------------------------------|-----------------------------------------------|
+| data.entities                    | API response models                           |
+| data.commons                     | Sealed ApiResponse class, Constants           |
+| data.mappers                     | Entity to domain model converters             |
+| data.remote                      | Retrofit configuration and service            |
+| data.repository                  | Data-layer logic implementation               |
+| domain.data                      | Domain-level models                           |
+| domain.repository                | Interfaces for repositories                   |
+| domain.usecase                   | Business logic                                |
+| presentation.view                | UI components (MainActivity, Adapter)         |
+| presentation.viewModel           | ViewModel and Factory                         |
+
+
+
 
